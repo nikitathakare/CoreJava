@@ -1,16 +1,12 @@
 package Files;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
+
 import java.util.InputMismatchException;
-import java.util.Iterator;
 import java.util.Scanner;
-import java.util.TreeSet;
+
 
 public class LockedMe{
-	static String path1 = "C:\\Users\\n.suresh.thakare\\Assingment\\FileHandeling\\m";
+	static String path1 = "C:\\Users\\n.suresh.thakare\\Assingment\\FileHandeling\\LockedMe";
 	static int key ;
 	static int key1;
 	
