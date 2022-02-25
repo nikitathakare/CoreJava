@@ -23,13 +23,15 @@ public class LockedMe{
 		do {
 			options();
 			Scanner sc = new Scanner(System.in);
+			
 			try {
 				key = sc.nextInt();
+				
 			} catch (InputMismatchException e) {
 				System.out.println(e+"**********Please Enter correct option***************");
-				sc.next();
 			}
-
+			
+		
 			switch (key) {
 			case 1:
 				System.out.println("=============================");
@@ -47,7 +49,7 @@ public class LockedMe{
 					key1 = sc.nextInt();
 				} catch (InputMismatchException e) {
 					System.out.println(e + "Please Enter correct file option");
-					sc.next();
+					
 				}
 				obj.switchCase(key1);
 				break;
@@ -61,13 +63,7 @@ public class LockedMe{
 				break;
 			default:
 				System.out.println("****** Incorrect Input **********");
-				options();
-				try {
-					key = sc.nextInt();
-				} catch (InputMismatchException e) {
-					System.out.println("Please Enter Incorrect option");
-					sc.next();
-				}
+			    options();
 				break;
 			}
 
@@ -97,7 +93,10 @@ public class LockedMe{
 		System.out.println("\nPlease select option : ");
 
 	}
+	
 
+	
+ 
 	
 	
 	
