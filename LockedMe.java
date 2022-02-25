@@ -72,7 +72,7 @@ public class LockedMe{
 		while (key > 0);
 
 	}
-
+///
 	public static void displayMenu() {
 
 		System.out.println("\n=======================================================================================");
@@ -81,7 +81,7 @@ public class LockedMe{
 		System.out.println("=======================================================================================");
 
 	}
-
+///
 	public static void options() {
 
 		System.out.println("\n=======================================================================================");
